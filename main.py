@@ -27,7 +27,7 @@ class MyWidget(QMainWindow):
 
     def draw_E(self, e):
         size = random.randint(50, 350)
-        self.paint.setBrush(QColor(random.choice(['yellow'])))
+        self.paint.setBrush(QColor(random.choice(['yellow', 'red', 'blue', 'green', 'pink', 'orange'])))
         self.paint.drawEllipse(0, 0, size, size)
 
 
